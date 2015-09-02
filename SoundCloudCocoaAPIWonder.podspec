@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   	s.author = 'SoundCloud'
   	s.homepage = 'https://developers.soundcloud.com/docs/api/ios-quickstart'
 	
-  	s.source = { :git => 'https://github.com/briandeweese/SoundCloud-Cocoa-API.git', :tag => s.version.to_s }
+  	s.source = { :git => 'https://github.com/briandeweese/SoundCloudCocoaAPIWonder.git', :tag => s.version.to_s }
 
   	s.ios.deployment_target = '7.0'
   	s.osx.deployment_target = '10.8'
