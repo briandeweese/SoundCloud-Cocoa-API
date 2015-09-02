@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  	s.name = 'SoundCloud-Cocoa-API'
+  	s.name = 'SoundCloudCocoaAPIWonder'
 	s.summary = 'Maintained version of the Soundcloud Cocoa API.'
   	s.version = '1.1.0'
   	s.license = { :type => 'propietary', :text => 'https://developers.soundcloud.com/docs/api/terms-of-use' }
   	s.author = 'SoundCloud'
   	s.homepage = 'https://developers.soundcloud.com/docs/api/ios-quickstart'
 	
-  	s.source = { :git => 'https://github.com/mhuusko5/SoundCloud-Cocoa-API.git', :tag => s.version.to_s }
+  	s.source = { :git => 'https://github.com/briandeweese/SoundCloud-Cocoa-API.git', :tag => s.version.to_s }
 
   	s.ios.deployment_target = '7.0'
   	s.osx.deployment_target = '10.8'
